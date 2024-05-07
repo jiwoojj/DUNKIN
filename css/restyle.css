@@ -1,90 +1,90 @@
 @charset "utf-8";
 
 
-@media screen and (max-width:1024px){
-    header{
-        height:auto;
-        background-color:rgba(255,255,255,0.3);
+@media screen and (max-width:1024px) {
+    header {
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.3);
     }
 
 
-    header>a{
-        float:none;
-        text-align:center;
-        font-size:30px;
+    header>a {
+        float: none;
+        text-align: center;
+        font-size: 30px;
     }
 
 
-    
-    header ul{
-        float:none;
-        height:auto;
-        padding:3vh 0;
+
+    header ul {
+        float: none;
+        height: auto;
+        padding: 3vh 0;
         justify-content: center;
     }
 
 
-    main{
-        height:100vh;
+    main {
+        height: 100vh;
     }
 
 
-    #flex article{
-        width:90%;
-        margin:auto;
+    #flex article {
+        width: 90%;
+        margin: auto;
     }
 
-    #flex .item{
-        flex:1 1 30%;
+    #flex .item {
+        flex: 1 1 30%;
     }
 
 
-    #grid{
-        height:100vh;
+    #grid {
+        height: 100vh;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2,1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 
-    #grid article:nth-child(1){
-        padding:10vh 0;
-        text-align:center;
-        font-size:50px;
-        
+    #grid article:nth-child(1) {
+        padding: 10vh 0;
+        text-align: center;
+        font-size: 50px;
+
     }
 
 
-    
-    #grid article:nth-child(1) p{
-        font-size:20px;
-        padding:3vh 0;
-    }
-    
-    #grid li{
-      display:none;
-    }
-    
 
-    #grid article:nth-child(2){
-        height:auto;
-        grid-template-columns: repeat(2,1fr);
+    #grid article:nth-child(1) p {
+        font-size: 20px;
+        padding: 3vh 0;
+    }
+
+    #grid li {
+        display: none;
+    }
+
+
+    #grid article:nth-child(2) {
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
     }
 
-    
+
     #grid .bg1,
-    #grid .bg2{
-        font-size:27px;
-        font-weight:500;
-        padding:20px;
+    #grid .bg2 {
+        font-size: 27px;
+        font-weight: 500;
+        padding: 20px;
     }
 
 
-    #grid .bg1 button{
-        width:80%;
+    #grid .bg1 button {
+        width: 80%;
     }
 
-    .bg2 i{
-        font-size:30px;
+    .bg2 i {
+        font-size: 30px;
     }
 
 
